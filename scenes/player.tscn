@@ -212,7 +212,7 @@ position = Vector2(0, -9)
 sprite_frames = SubResource("SpriteFrames_dx0e4")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.206346
+frame_progress = 0.89476
 metadata/_aseprite_wizard_interface_config_ = {
 "animation_section": true,
 "layer_section": true,
