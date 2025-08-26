@@ -1,4 +1,2 @@
-res://scenes/game.tscn
 res://scenes/player.tscn
-res://scenes/player.gd
-res://scripts/player.gd
+res://scenes/game.tscn
