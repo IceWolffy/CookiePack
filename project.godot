@@ -11,5 +11,14 @@ config_version=5
 [application]
 
 config/name="CookiePack"
+run/main_scene="uid://bftrxl3x6t5ua"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/AsepriteWizard/plugin.cfg")
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
