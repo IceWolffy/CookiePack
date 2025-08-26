@@ -1,4 +1,6 @@
-[gd_scene load_steps=27 format=4 uid="uid://d0jf4p33gbrtk"]
+[gd_scene load_steps=28 format=4 uid="uid://d0jf4p33gbrtk"]
+
+[ext_resource type="Script" uid="uid://b63h61umndsjc" path="res://scripts/player.gd" id="1_3vyb7"]
 
 [sub_resource type="PortableCompressedTexture2D" id="PortableCompressedTexture2D_sh265"]
 _data = PackedByteArray("AAADAAUAAAABAAAAeAAAAHgAAAAiBAAAUklGRhoEAABXRUJQVlA4TA0EAAAvd8AdEGegJpIUCSFkeMInjv6UuvQ/G4pi26BeC1sJJZNEAwUk+K8oiiSpuRwIQrCJOHzw4osCmP8AgP8/XzX0WTxMuTqV+KR+lHUWG2FBKkA3tu1GkoQhf+SmUovjw3pQOiqi3rDEcuJClQMT0cyC9YJB+qnmMnyrMvEfkNnLpYj+O3AbSZHSu8fgpU+Ef+JBNa64GPps0ueMWYuZ1SbkytBlG/qcu6xqWqqiM3TYepyu/Q/JEjdw20on5si21IYeW7czHs5JyJWhy9Zw0lR7DecbOL+AagFIxdBpI1HnJ29ysRSCsxWDMzRszBAicX7x+qt8Or4Ngfm9ocPmhhi++B6Lwdu4gdtooE0jtVFDy8ZqOLXcJm9Tti0dNn+jgzd89yabJeqnhobNF7NNiezzlL3tVTbjzpbNLwVCkizU1nD22QLACIEaBMIN3PafcFANN2xoi1mLmQk3bGfbZVXTwg3b2Fz7H5IlbtjQhjkz44YNbfFwzg3b2Giq3LCxDaoF4IYNbSHmYikEbtjE5iafjm+5YVMbuKHf1t00zok39NvA/OM7ZtBya8IMidjojdrH5P3UELOZCjOYeFu6TcSjUyL7zTLb/wnwfk0o4m2DmXgQJgneUCAkCYQzawgIQGHQoYHzIfRPBCNI+O8wEfNwQ0+opoeGXMxMOgxn5/OQy6LyUJr3qGmR2oDsDefVPKvaORtlOs9ek6WqHc73znDWav/D4qFM4jEzkjOc8+BslOk85yR0Fw+1jTKdR4svHq6n3lSXKJN64MvOcNYIqgUQymQecsoMlYHmQLlYcrRcMamHG2jBTz4d31JCw9Nl4IEWH45HWd0Zex6mkRSnOXItLB7hhp6n0HKbXKM+/pb8tsweE2roKmYzH0oaB7IPzVSooauQU07eXwBhHoAb+MskyeJbXmWeloFEbZhvfcI9DQPrWfiPNRHzPFXIxczkiR5nZNMi/TsCkBWeHc73yZJ0OXFQNbPU76lyT9rOHVTLqGmFB6y2Mx5urstk6PfMgOvJ1eOcM0v9nqVsVh2IthO4OV9a4YmAlvq04s4aobr4V3ny6fi2Os2aHmDIOgCyyhMfjsfqm03PNOq8NSs9cZrDUtMZdbh9J32eh9vfpG7Ux99SaHjqyTalQP3MY+pCSeMQmCeRc75AAvf7EsBo1JYyKcw0VmbNSt/yKvNk4Zdq37aDcjgSs6izef3/ZSKqkX7PunBQNbPEndyzrh1Uy6iJO7ln5ZPDzXWZDNzJPWtv5swaTu5Z+TJuzpe4s+FZuai2ndyz8n7IOgDCndyzqmnU0/Ft0088q09Jfbh9J9zvPfZx9qydbGbC/d6jUwrrbxIKcSZLvohJ1gcJIA1mQkRD2HYAFJY8wdUc/skmAAA=")
@@ -205,6 +207,7 @@ animations = [{
 radius = 7.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_3vyb7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -238,3 +241,5 @@ metadata/_aseprite_wizard_source_file_hash_ = "c417f9dfcba310715e66fc70c38df035"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, -7)
 shape = SubResource("CircleShape2D_sh265")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
