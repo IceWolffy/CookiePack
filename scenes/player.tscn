@@ -211,7 +211,8 @@ texture_filter = 1
 position = Vector2(0, -9)
 sprite_frames = SubResource("SpriteFrames_dx0e4")
 animation = &"idle"
-frame_progress = 0.637445
+autoplay = "idle"
+frame_progress = 0.206346
 metadata/_aseprite_wizard_interface_config_ = {
 "animation_section": true,
 "layer_section": true,
