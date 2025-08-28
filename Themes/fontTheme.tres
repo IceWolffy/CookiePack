@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dh605hhue7h3b"]
+
+[ext_resource type="FontFile" uid="uid://ctashwecyuufa" path="res://Daydream DEMO.otf" id="1_i1sxh"]
+
+[resource]
+/fonts/PixelFontMain = ExtResource("1_i1sxh")
