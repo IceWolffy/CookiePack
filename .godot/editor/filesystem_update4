@@ -1,2 +1,6 @@
+res://scripts/cookie.gd
+res://scenes/cookie.tscn
 res://scenes/game.tscn
 res://scenes/player.tscn
+res://scripts/timer.gd
+res://scenes/timer.tscn

@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://bftrxl3x6t5ua"]
+[gd_scene load_steps=5 format=3 uid="uid://bftrxl3x6t5ua"]
 
 [ext_resource type="PackedScene" uid="uid://d0jf4p33gbrtk" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://bp866uqsnggww" path="res://scenes/cookie.tscn" id="2_yqjtg"]
+[ext_resource type="PackedScene" uid="uid://ck0ifxoe5yjjj" path="res://scenes/timer.tscn" id="3_lnu2h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uwrxv"]
 size = Vector2(345, 20)
@@ -25,3 +26,9 @@ shape = SubResource("RectangleShape2D_uwrxv")
 
 [node name="Node2D" parent="." instance=ExtResource("2_yqjtg")]
 position = Vector2(214, -7)
+
+[node name="Biscuit" parent="." instance=ExtResource("2_yqjtg")]
+position = Vector2(21, -7)
+
+[node name="timer" parent="." instance=ExtResource("3_lnu2h")]
+position = Vector2(30, -32)
