@@ -3,6 +3,7 @@ extends CharacterBody2D
 @onready var _animated_sprite = $AnimatedSprite2D
 @export var SPEED = 150.0
 @export var JUMP_VELOCITY = -300.0
+@export var JETPACK_VELOCITY = -100.0
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -10,10 +11,14 @@ func _physics_process(delta):
 		velocity += get_gravity() * delta
 
 	# Handle jump.
-	if Input.is_action_just_pressed("jump") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
+	#if Input.is_action_just_pressed("jump") and is_on_floor():
+	#		velocity.y = JUMP_VELOCITY
+	#		_animated_sprite.play("idle")
+
+	if Input.is_action_pressed("jump"):
+		velocity.y = JETPACK_VELOCITY
 		_animated_sprite.play("idle")
-	
+
 	if Input.is_action_pressed("left") or Input.is_action_pressed("right"):
 		if is_on_floor():
 			_animated_sprite.play("move")

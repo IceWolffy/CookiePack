@@ -1,6 +1,10 @@
 affd29dcfc892077fd5194ae1cd3f129
 ::res://::1756216727
+cookie.tscn::PackedScene::3509316466553698650::1756639590::0::1::::<><><>0<>0<><>::
+Daydream DEMO.otf::FontFile::6107535964752621146::1756639590::1756639832::1::::<><><>0<>0<>af7a0ec0e16873cea8db618ade19174e<>res://.godot/imported/Daydream DEMO.otf-4acbea0c4a5707b768438b8b7e757cc5.fontdata::
+default_bus_layout.tres::AudioBusLayout::6360623975087659882::1756639590::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::5096636118998788313::1756216730::1756216806::1::::<><><>0<>0<>9b107daf73bba8c8b93ad79d62ae2f8e<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main_menu.tscn::PackedScene::2220793305786806508::1756639590::0::1::::<><><>0<>0<><>::uid://c6c5ftmgqutmw::::res://scripts/main_menu.gd<>uid://dsra7tspskx0b::::res://assets/Spritesheet_UI_Flat.png
 ::res://addons/::1756216728
 ::res://addons/AsepriteWizard/::1756216728
 plugin.cfg::TextFile/TextFile::-1::1756216730::0::1::::<><><>0<>0<><>::
@@ -112,10 +116,16 @@ tree_selection_confirmation_warning.tscn::PackedScene/PackedScene::1136156742705
 cookie.aseprite::PackedDataContainer/PackedDataContainer::3895877419586378907::1756220492::1756220500::1::::<><><>0<>0<>6ff3b491bce52a7bfd2919aad5f0c2cd<>res://.godot/imported/cookie.aseprite-f7aaa3f5d5fe690b6482979d0de3c1b2.res::
 DinoSprites.ase::PackedDataContainer/PackedDataContainer::6528253018625499123::1756220492::1756220500::1::::<><><>0<>0<>dbe4030a57fda9004d7fa57279fa83ed<>res://.godot/imported/DinoSprites.ase-c983c625fc8152945113be9f78a865ac.res::
 icon.svg::CompressedTexture2D/CompressedTexture2D::5096636118998788313::1756216730::1756216806::1::::<><><>0<>0<>4e2fa953f3423a5a651f7475a7ee12c9<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
+Spritesheet_UI_Flat.png::CompressedTexture2D::8457813830243997055::1756639590::1756639832::1::::<><><>0<>0<>75485e9b0aeba55368e4bf7cf371ab9d<>res://.godot/imported/Spritesheet_UI_Flat.png-b291da9ac36ae6d09b4085e9c88a002c.ctex::
+Spritesheet_UI_Flat_Animated.png::CompressedTexture2D::2467552000330851904::1756639590::1756639832::1::::<><><>0<>0<>a03441a4dff60ceec589fe47719db767<>res://.godot/imported/Spritesheet_UI_Flat_Animated.png-d7d58a38879b582e8e66ad1e37ce7792.ctex::
+UI_Flat.aseprite::PackedDataContainer::6929998646377405142::1756639590::1756639832::1::::<><><>0<>0<>cebcf91cfa44e53d40929e84b9f0db72<>res://.godot/imported/UI_Flat.aseprite-999acb6cb189753ddd4e309fc60f7885.res::
+UI_FlatAnimated.aseprite::PackedDataContainer::7565894463167210393::1756639590::1756639832::1::::<><><>0<>0<>fe44237765b406098f9b6b0dd52f3509<>res://.godot/imported/UI_FlatAnimated.aseprite-676b0e510f09df4b89890c5d3ef8b344.res::
 ::res://scenes/::1756216728
-DinoSprites.json::JSON::-1::1756221098::0::1::::<><><>0<>0<><>::
-DinoSprites.png::CompressedTexture2D/CompressedTexture2D::8487465251115874853::1756221098::1756221082::1::::<><><>0<>0<>575b915b16ecc51cf6bcd82195e571c2<>res://.godot/imported/DinoSprites.png-0208e4fc5bc18066f510d0397fdfff31.ctex::
-game.tscn::PackedScene/PackedScene::2777661963445839752::1756220586::0::1::::<><><>0<>0<><>::uid://d0jf4p33gbrtk::::res://scenes/player.tscn
-player.tscn::PackedScene/PackedScene::8932918747188770364::1756220960::0::1::::<><><>0<>0<><>::uid://b63h61umndsjc::::res://scripts/player.gd
+game.tscn::PackedScene::2777661963445839752::1756639590::0::1::::<><><>0<>0<><>::uid://d0jf4p33gbrtk::::res://scenes/player.tscn<>uid://bp866uqsnggww::::res://cookie.tscn
+main_menu.tscn::PackedScene::2220793305786806508::1756639590::0::1::::<><><>0<>0<><>::uid://c6c5ftmgqutmw::::res://scripts/main_menu.gd<>uid://dsra7tspskx0b::::res://assets/Spritesheet_UI_Flat.png
+player.tscn::PackedScene::8932918747188770364::1756639590::0::1::::<><><>0<>0<><>::res://scripts/player.gd
 ::res://scripts/::1756220491
+main_menu.gd::GDScript::6954655731201952090::1756639590::0::1::::<>Node2D<><>0<>0<><>::
 player.gd::GDScript/GDScript::4620559189212124260::1756220492::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Themes/::1756639588
+fontTheme.tres::Theme::7716151544950093909::1756639590::0::1::::<><><>0<>0<><>::uid://ctashwecyuufa::::res://Daydream DEMO.otf
