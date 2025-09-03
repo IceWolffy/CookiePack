@@ -3,4 +3,5 @@
 [ext_resource type="FontFile" uid="uid://ctashwecyuufa" path="res://Daydream DEMO.otf" id="1_i1sxh"]
 
 [resource]
+default_font = ExtResource("1_i1sxh")
 /fonts/PixelFontMain = ExtResource("1_i1sxh")

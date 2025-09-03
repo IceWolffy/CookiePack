@@ -1,0 +1,14 @@
+[remap]
+
+importer="aseprite_wizard.plugin.noop"
+type="PackedDataContainer"
+uid="uid://dy2e7b0x6qqj"
+path="res://.godot/imported/DinoDummy.aseprite-c7f86808997e95b868eb66d950e9dab9.res"
+
+[deps]
+
+source_file="res://assets/DinoDummy.aseprite"
+dest_files=["res://.godot/imported/DinoDummy.aseprite-c7f86808997e95b868eb66d950e9dab9.res"]
+
+[params]
+
